@@ -53,8 +53,66 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+
+
+.info-box1, .info-box2, .info-box3, .info-box4 {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.middle-content {
+    padding: 30px 0 30px 0px;
+    background-color: white;
+}
+
+.info1-content, .info2-content, .info3-content, .info4-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.random-info {
+    text-align: center;
+    margin: 30px 0 70px;
+}
+
+.middle-content-flex {
+    background-color: white;
+    display: flex;
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+    flex-direction: column;
+}
+
+.quote-paragraph {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-writer {
+    text-align: right;
+}
 
 button {
     flex-shrink: auto;
